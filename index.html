@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>Phoenix Web Developer Slack Community</title>
+	<link rel="stylesheet" href="style.css">
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Phoenix Web Developer Slack Community</h1>
+    <p class="text-center">If you're from the Phoenix valley and love web development we created this Slack community for you! What's Slack? Learn more <a href="http://slack.com" target="_blank">here</a>.</p>
+    <h2 class="text-center">Enter Your Info For A Special Invite</h2>
+	<div id="page-wrapper">
+
+	  <div id="form-messages"></div>
+		
+		<form id="ajax-contact" method="post" action="mailer.php">
+			<div class="field">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+			</div>
+
+			<div class="field">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+			</div>
+
+			<div class="field">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+			</div>
+
+			<div class="field">
+				<button type="submit">Send</button>
+			</div>
+		</form>
+	</div>
+	<p class="text-center" id="spam">We will not SPAM or sell your email address to 3rd parties.</p>
+	</div><!-- end /.container -->
+	
+	<script src="jquery-2.1.0.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
