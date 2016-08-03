@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: white;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f3/PhoenixDowntown.jpg");
   font-family: 'Raleway', sans-serif;
   padding: 40px 0px 0px 0px;
 }
@@ -27,11 +27,17 @@ body {
 h1 {
   font-size: 4em;
   font-weight: 400;
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2em;
 }
 
 p {
   font-size: 1.2em;
-  color: #000000;
+  color: #ffffff;
 }
 
 .field {
