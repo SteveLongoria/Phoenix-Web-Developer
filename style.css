@@ -5,13 +5,13 @@
 }
 
 html {
-  font-family: 'Raleway', sans-serif;
   background: #333;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
-  background: #000000;
+  background: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 #page-wrapper {
