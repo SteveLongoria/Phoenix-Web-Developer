@@ -4,15 +4,12 @@
   box-sizing: border-box;
 }
 
-html {
-  background: #333;
-  -webkit-font-smoothing: antialiased;
-}
-
 body {
-  background-image: url("http://i.imgur.com/33Sr25G.jpg");
+  background-image: url("http://i.imgur.com/eKGiiut.jpg");
+  background-repeat: repeat;
   font-family: 'Raleway', sans-serif;
   padding: 40px 0px 0px 0px;
+  
 }
 
 #page-wrapper {
